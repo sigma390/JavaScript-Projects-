@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Success and Error Borders */
+input.border-red-500 {
+  border-color: #f56565;
+}
+
+input.border-green-500 {
+  border-color: #48bb78;
+}
+
+/* Error Message Styling */
+.error {
+  font-size: 0.875rem;
+  color: #f56565;
+  margin-top: 0.25rem;
+}
